@@ -79,7 +79,7 @@ a.nav-link.mini-golden {
     background: #243024d9;
     width: 25%;
     padding: 30px;
-    margin: 50px 30px 0px auto;
+    margin: 150px 30px 0px auto;
 }
 
 hr {
@@ -97,6 +97,12 @@ hr {
     width: 250px;
     height: 330px;
     border-radius: 30px;
+}
+
+.product-showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 4rem;
 }
 
 
