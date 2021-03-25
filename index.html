@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>watchers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+    <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+    <header>
+        <nav class="d-flex navbar navbar-light bg-dark">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mini-golden" style="font-size:15px;" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Tiếng Việt</a>
+                </div>
+            </li>
+        </nav>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+            <a class="navbar-brand mini-golden" style="font-size: 30px;" href="#"><img class="icon" src="images/this is getting out of hand.jfif" alt="">watchers</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link mini-golden" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mini-golden" href="#">Throw me cash</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mini-golden" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nonsense</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item " href="#">Cookie</a>
+                            <a class="dropdown-item" href="#">Harbringer</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =================================== NOT HEADER ANYMORE =================================== -->
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3 golden">ART DECO</h1>
+            <hr>
+            <p class="lead mini-golden">Le futur</p>
+            <!-- <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p> -->
+        </div>
+    </div>
+
+    <div class="big-old-paddington align-items-center text-center">
+        <div class="naming-isnt-my-strong-suit">
+            <div class="i-present d-lg-flex my-4">
+                <img src="images/i see.jfif" alt="">
+                <img src="images/i saw.jfif" alt="">
+                <img src="images/ive seen.jfif" alt="">
+            </div>
+            <div class="i-present d-lg-flex my-4">
+                <img src="images/deco_leco.jfif" alt="">
+                <img src="images/meco_seco.jfif" alt="">
+                <img src="images/Bulging_Eyes.jpg" alt="">
+            </div>
+
+            <div class="product-showcase mx-4">
+                <h2 class="golden">New Products</h2>
+                <div class="row my-5 p-showcase">
+                </div>
+            </div>
+
+            <div class="info-boxes d-flex">
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mini-golden">
+        <div class="footer__addr">
+            <h1 class="footer__logo">watchers</h1>
+
+            <h2>Contact</h2>
+
+            <address>
+          5534 Somewhere In. The World 22193-10212<br>
+        </address>
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item mini-golden">
+                <h2 class="nav__title">Media</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#" class="mini-golden">Online</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Print</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Alternative Ads</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item nav__item--extra mini-golden">
+                <h2 class="nav__title">Technology</h2>
+
+                <ul class="nav__ul nav__ul--extra">
+                    <li>
+                        <a href="#" class="mini-golden">Hardware Design</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Software Design</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Digital Signage</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Automation</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Artificial Intelligence</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">IoT</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item mini-golden">
+                <h2 class="nav__title">Legal</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#" class="mini-golden">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Terms of Use</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="mini-golden">Sitemap</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="legal mini-golden">
+            <p>&copy; 2021 acesher. All rights are meaningless.</p>
+
+            <div class="legal__links mini-golden">
+                <span>Made with <span class="heart">♥</span> Luv</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- =================================== scripts babi =================================== -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="staticcatalog.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
